@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		1CF6C8E42C44C05000D95621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C8E32C44C05000D95621 /* AppDelegate.swift */; };
 		1CF6C8E62C44C05000D95621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C8E52C44C05000D95621 /* SceneDelegate.swift */; };
-		1CF6C8E82C44C05000D95621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C8E72C44C05000D95621 /* ViewController.swift */; };
 		1CF6C8EB2C44C05000D95621 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C8EA2C44C05000D95621 /* Base */; };
 		1CF6C8ED2C44C05200D95621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C8EC2C44C05200D95621 /* Assets.xcassets */; };
 		1CF6C8F02C44C05200D95621 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C8EF2C44C05200D95621 /* Base */; };
 		1CF6C8FB2C44C05200D95621 /* app_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C8FA2C44C05200D95621 /* app_testTests.swift */; };
 		1CF6C9052C44C05200D95621 /* app_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9042C44C05200D95621 /* app_testUITests.swift */; };
 		1CF6C9072C44C05200D95621 /* app_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9062C44C05200D95621 /* app_testUITestsLaunchTests.swift */; };
+		1CF6C91B2C460A5B00D95621 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9192C460A5B00D95621 /* TeacherListViewController.swift */; };
+		1CF6C91C2C460A5B00D95621 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C91A2C460A5B00D95621 /* TeacherListViewController.xib */; };
+		1CF6C91E2C460B3C00D95621 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C91D2C460B3C00D95621 /* SignInViewController.swift */; };
+		1CF6C9212C46139D00D95621 /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C91F2C46139D00D95621 /* TeacherCell.swift */; };
+		1CF6C9222C46139D00D95621 /* TeacherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9202C46139D00D95621 /* TeacherCell.xib */; };
+		1CF6C9252C465D2800D95621 /* TeacherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9232C465D2800D95621 /* TeacherDetailsViewController.swift */; };
+		1CF6C9262C465D2800D95621 /* TeacherDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */; };
+		1CF6C9292C46704600D95621 /* AdsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9272C46704500D95621 /* AdsBannerCell.swift */; };
+		1CF6C92A2C46704600D95621 /* AdsBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9282C46704500D95621 /* AdsBannerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		1CF6C8E02C44C05000D95621 /* app-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF6C8E32C44C05000D95621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF6C8E52C44C05000D95621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CF6C8E72C44C05000D95621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CF6C8EA2C44C05000D95621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF6C8EC2C44C05200D95621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF6C8EF2C44C05200D95621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		1CF6C9002C44C05200D95621 /* app-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF6C9042C44C05200D95621 /* app_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_testUITests.swift; sourceTree = "<group>"; };
 		1CF6C9062C44C05200D95621 /* app_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CF6C9192C460A5B00D95621 /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
+		1CF6C91A2C460A5B00D95621 /* TeacherListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherListViewController.xib; sourceTree = "<group>"; };
+		1CF6C91D2C460B3C00D95621 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1CF6C91F2C46139D00D95621 /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		1CF6C9202C46139D00D95621 /* TeacherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherCell.xib; sourceTree = "<group>"; };
+		1CF6C9232C465D2800D95621 /* TeacherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailsViewController.swift; sourceTree = "<group>"; };
+		1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherDetailsViewController.xib; sourceTree = "<group>"; };
+		1CF6C9272C46704500D95621 /* AdsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsBannerCell.swift; sourceTree = "<group>"; };
+		1CF6C9282C46704500D95621 /* AdsBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsBannerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,19 @@
 			children = (
 				1CF6C8E32C44C05000D95621 /* AppDelegate.swift */,
 				1CF6C8E52C44C05000D95621 /* SceneDelegate.swift */,
-				1CF6C8E72C44C05000D95621 /* ViewController.swift */,
 				1CF6C8E92C44C05000D95621 /* Main.storyboard */,
 				1CF6C8EC2C44C05200D95621 /* Assets.xcassets */,
 				1CF6C8EE2C44C05200D95621 /* LaunchScreen.storyboard */,
 				1CF6C8F12C44C05200D95621 /* Info.plist */,
+				1CF6C9192C460A5B00D95621 /* TeacherListViewController.swift */,
+				1CF6C91A2C460A5B00D95621 /* TeacherListViewController.xib */,
+				1CF6C91F2C46139D00D95621 /* TeacherCell.swift */,
+				1CF6C9202C46139D00D95621 /* TeacherCell.xib */,
+				1CF6C91D2C460B3C00D95621 /* SignInViewController.swift */,
+				1CF6C9232C465D2800D95621 /* TeacherDetailsViewController.swift */,
+				1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */,
+				1CF6C9272C46704500D95621 /* AdsBannerCell.swift */,
+				1CF6C9282C46704500D95621 /* AdsBannerCell.xib */,
 			);
 			path = "app-test";
 			sourceTree = "<group>";
@@ -232,6 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF6C8ED2C44C05200D95621 /* Assets.xcassets in Resources */,
+				1CF6C91C2C460A5B00D95621 /* TeacherListViewController.xib in Resources */,
+				1CF6C9262C465D2800D95621 /* TeacherDetailsViewController.xib in Resources */,
+				1CF6C9222C46139D00D95621 /* TeacherCell.xib in Resources */,
+				1CF6C92A2C46704600D95621 /* AdsBannerCell.xib in Resources */,
 				1CF6C8F02C44C05200D95621 /* Base in Resources */,
 				1CF6C8EB2C44C05000D95621 /* Base in Resources */,
 			);
@@ -258,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF6C8E82C44C05000D95621 /* ViewController.swift in Sources */,
+				1CF6C9252C465D2800D95621 /* TeacherDetailsViewController.swift in Sources */,
+				1CF6C91B2C460A5B00D95621 /* TeacherListViewController.swift in Sources */,
 				1CF6C8E42C44C05000D95621 /* AppDelegate.swift in Sources */,
+				1CF6C9292C46704600D95621 /* AdsBannerCell.swift in Sources */,
+				1CF6C91E2C460B3C00D95621 /* SignInViewController.swift in Sources */,
+				1CF6C9212C46139D00D95621 /* TeacherCell.swift in Sources */,
 				1CF6C8E62C44C05000D95621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
