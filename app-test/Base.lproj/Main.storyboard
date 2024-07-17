@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="R24-iI-Voq">
-                                <rect key="frame" x="0.0" y="422.66666666666674" width="393" height="429.33333333333326"/>
+                                <rect key="frame" x="0.0" y="355.66666666666674" width="393" height="496.33333333333326"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9b-Ea-veJ">
                                         <rect key="frame" x="20" y="20" width="353" height="50"/>
@@ -34,8 +34,19 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Sign Up" cornerStyle="capsule"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-9H-aiW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZx-aa-33g">
                                         <rect key="frame" x="20" y="87" width="353" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="yB8-nt-HyO"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Product List" cornerStyle="capsule"/>
+                                        <connections>
+                                            <action selector="productListBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iz8-CG-vDN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-9H-aiW">
+                                        <rect key="frame" x="20" y="154" width="353" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gay-Sv-YPm"/>
                                         </constraints>
@@ -49,13 +60,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tB7-af-SiM">
-                                        <rect key="frame" x="20" y="153.99999999999994" width="353" height="20.333333333333343"/>
+                                        <rect key="frame" x="20" y="220.99999999999994" width="353" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXJ-hW-IUJ">
-                                        <rect key="frame" x="20" y="191.33333333333331" width="353" height="50"/>
+                                        <rect key="frame" x="20" y="258.33333333333331" width="353" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="jaH-QL-WtS"/>
                                         </constraints>
@@ -69,7 +80,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opk-fp-x94">
-                                        <rect key="frame" x="20" y="258.33333333333331" width="353" height="50"/>
+                                        <rect key="frame" x="20" y="325.33333333333331" width="353" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="DPt-9x-fGS"/>
                                         </constraints>
@@ -83,7 +94,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZr-ta-gyW">
-                                        <rect key="frame" x="20" y="325.33333333333331" width="353" height="50"/>
+                                        <rect key="frame" x="20" y="392.33333333333331" width="353" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="OJ6-1G-H84"/>
                                         </constraints>

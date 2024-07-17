@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ariel_lau_powder_srf_jumbo_bp_70g.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

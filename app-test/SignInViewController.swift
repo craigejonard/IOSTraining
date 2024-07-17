@@ -16,6 +16,11 @@ class SignInViewController: UIViewController {
         
     }
     
+    @IBAction func productListBtn(_ sender: Any) {
+        let VC = ProductsViewController()
+        self.navigationController?.pushViewController(VC, animated: true)
+    }
+    
     @IBAction func LoginOutletBtn(_ sender: Any) {
         let VC = TeacherListViewController()
 //        VC.modalPresentationStyle = .fullScreen
