@@ -142,7 +142,7 @@
             <objects>
                 <viewController id="nal-Af-hOy" customClass="ViewController" customModule="app_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jzo-19-111">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ark-GS-ocW">
@@ -197,7 +197,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zj1-KE-GEY"/>
+        <segue reference="fwn-e8-LGQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">

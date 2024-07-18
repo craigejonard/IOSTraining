@@ -24,10 +24,17 @@
 		1CF6C9262C465D2800D95621 /* TeacherDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */; };
 		1CF6C9292C46704600D95621 /* AdsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9272C46704500D95621 /* AdsBannerCell.swift */; };
 		1CF6C92A2C46704600D95621 /* AdsBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9282C46704500D95621 /* AdsBannerCell.xib */; };
-		1CF6C92D2C47590600D95621 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C92B2C47590600D95621 /* ProductsViewController.swift */; };
-		1CF6C92E2C47590600D95621 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C92C2C47590600D95621 /* ProductsViewController.xib */; };
 		1CF6C9352C47677800D95621 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9332C47677800D95621 /* ProductCell.swift */; };
 		1CF6C9362C47677800D95621 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9342C47677800D95621 /* ProductCell.xib */; };
+		1CF6C94D2C48A67800D95621 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C94B2C48A67800D95621 /* ProductsViewController.xib */; };
+		1CF6C94E2C48A67800D95621 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C94C2C48A67800D95621 /* ProductsViewController.swift */; };
+		1CF6C9592C48A89600D95621 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9572C48A89600D95621 /* ProductDetailViewController.swift */; };
+		1CF6C95A2C48A89600D95621 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9582C48A89600D95621 /* ProductDetailViewController.xib */; };
+		1CF6C95C2C48AA6700D95621 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C95B2C48AA6700D95621 /* CustomTabBarController.swift */; };
+		1CF6C95F2C48AAB100D95621 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C95D2C48AAB100D95621 /* SettingsViewController.swift */; };
+		1CF6C9602C48AAB100D95621 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C95E2C48AAB100D95621 /* SettingsViewController.xib */; };
+		1CF6C96A2C48F49900D95621 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6C9682C48F49800D95621 /* SettingsViewCell.swift */; };
+		1CF6C96B2C48F49900D95621 /* SettingsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF6C9692C48F49800D95621 /* SettingsViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +76,17 @@
 		1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherDetailsViewController.xib; sourceTree = "<group>"; };
 		1CF6C9272C46704500D95621 /* AdsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsBannerCell.swift; sourceTree = "<group>"; };
 		1CF6C9282C46704500D95621 /* AdsBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsBannerCell.xib; sourceTree = "<group>"; };
-		1CF6C92B2C47590600D95621 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
-		1CF6C92C2C47590600D95621 /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
 		1CF6C9332C47677800D95621 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		1CF6C9342C47677800D95621 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		1CF6C94B2C48A67800D95621 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		1CF6C94C2C48A67800D95621 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		1CF6C9572C48A89600D95621 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		1CF6C9582C48A89600D95621 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		1CF6C95B2C48AA6700D95621 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		1CF6C95D2C48AAB100D95621 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1CF6C95E2C48AAB100D95621 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		1CF6C9682C48F49800D95621 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
+		1CF6C9692C48F49800D95621 /* SettingsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,25 +137,19 @@
 		1CF6C8E22C44C05000D95621 /* app-test */ = {
 			isa = PBXGroup;
 			children = (
+				1CF6C9612C48B2FA00D95621 /* Teacher */,
+				1CF6C9622C48B33000D95621 /* Product */,
+				1CF6C91D2C460B3C00D95621 /* SignInViewController.swift */,
 				1CF6C8E32C44C05000D95621 /* AppDelegate.swift */,
 				1CF6C8E52C44C05000D95621 /* SceneDelegate.swift */,
 				1CF6C8E92C44C05000D95621 /* Main.storyboard */,
 				1CF6C8EC2C44C05200D95621 /* Assets.xcassets */,
 				1CF6C8EE2C44C05200D95621 /* LaunchScreen.storyboard */,
 				1CF6C8F12C44C05200D95621 /* Info.plist */,
-				1CF6C9192C460A5B00D95621 /* TeacherListViewController.swift */,
-				1CF6C91A2C460A5B00D95621 /* TeacherListViewController.xib */,
-				1CF6C91F2C46139D00D95621 /* TeacherCell.swift */,
-				1CF6C9202C46139D00D95621 /* TeacherCell.xib */,
-				1CF6C91D2C460B3C00D95621 /* SignInViewController.swift */,
-				1CF6C9232C465D2800D95621 /* TeacherDetailsViewController.swift */,
-				1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */,
 				1CF6C9272C46704500D95621 /* AdsBannerCell.swift */,
 				1CF6C9282C46704500D95621 /* AdsBannerCell.xib */,
-				1CF6C92B2C47590600D95621 /* ProductsViewController.swift */,
-				1CF6C92C2C47590600D95621 /* ProductsViewController.xib */,
-				1CF6C9332C47677800D95621 /* ProductCell.swift */,
-				1CF6C9342C47677800D95621 /* ProductCell.xib */,
+				1CF6C95B2C48AA6700D95621 /* CustomTabBarController.swift */,
+				1CF6C9632C48F3FF00D95621 /* Settings */,
 			);
 			path = "app-test";
 			sourceTree = "<group>";
@@ -161,6 +169,43 @@
 				1CF6C9062C44C05200D95621 /* app_testUITestsLaunchTests.swift */,
 			);
 			path = "app-testUITests";
+			sourceTree = "<group>";
+		};
+		1CF6C9612C48B2FA00D95621 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6C9232C465D2800D95621 /* TeacherDetailsViewController.swift */,
+				1CF6C9242C465D2800D95621 /* TeacherDetailsViewController.xib */,
+				1CF6C91F2C46139D00D95621 /* TeacherCell.swift */,
+				1CF6C9202C46139D00D95621 /* TeacherCell.xib */,
+				1CF6C9192C460A5B00D95621 /* TeacherListViewController.swift */,
+				1CF6C91A2C460A5B00D95621 /* TeacherListViewController.xib */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		1CF6C9622C48B33000D95621 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6C94C2C48A67800D95621 /* ProductsViewController.swift */,
+				1CF6C94B2C48A67800D95621 /* ProductsViewController.xib */,
+				1CF6C9332C47677800D95621 /* ProductCell.swift */,
+				1CF6C9342C47677800D95621 /* ProductCell.xib */,
+				1CF6C9572C48A89600D95621 /* ProductDetailViewController.swift */,
+				1CF6C9582C48A89600D95621 /* ProductDetailViewController.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		1CF6C9632C48F3FF00D95621 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6C95D2C48AAB100D95621 /* SettingsViewController.swift */,
+				1CF6C95E2C48AAB100D95621 /* SettingsViewController.xib */,
+				1CF6C9682C48F49800D95621 /* SettingsViewCell.swift */,
+				1CF6C9692C48F49800D95621 /* SettingsViewCell.xib */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,13 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF6C9362C47677800D95621 /* ProductCell.xib in Resources */,
+				1CF6C96B2C48F49900D95621 /* SettingsViewCell.xib in Resources */,
 				1CF6C8ED2C44C05200D95621 /* Assets.xcassets in Resources */,
+				1CF6C9602C48AAB100D95621 /* SettingsViewController.xib in Resources */,
+				1CF6C94D2C48A67800D95621 /* ProductsViewController.xib in Resources */,
+				1CF6C95A2C48A89600D95621 /* ProductDetailViewController.xib in Resources */,
 				1CF6C91C2C460A5B00D95621 /* TeacherListViewController.xib in Resources */,
 				1CF6C9262C465D2800D95621 /* TeacherDetailsViewController.xib in Resources */,
 				1CF6C9222C46139D00D95621 /* TeacherCell.xib in Resources */,
 				1CF6C92A2C46704600D95621 /* AdsBannerCell.xib in Resources */,
 				1CF6C8F02C44C05200D95621 /* Base in Resources */,
-				1CF6C92E2C47590600D95621 /* ProductsViewController.xib in Resources */,
 				1CF6C8EB2C44C05000D95621 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,13 +350,17 @@
 			files = (
 				1CF6C9252C465D2800D95621 /* TeacherDetailsViewController.swift in Sources */,
 				1CF6C91B2C460A5B00D95621 /* TeacherListViewController.swift in Sources */,
-				1CF6C92D2C47590600D95621 /* ProductsViewController.swift in Sources */,
+				1CF6C96A2C48F49900D95621 /* SettingsViewCell.swift in Sources */,
 				1CF6C8E42C44C05000D95621 /* AppDelegate.swift in Sources */,
 				1CF6C9292C46704600D95621 /* AdsBannerCell.swift in Sources */,
+				1CF6C94E2C48A67800D95621 /* ProductsViewController.swift in Sources */,
+				1CF6C95C2C48AA6700D95621 /* CustomTabBarController.swift in Sources */,
 				1CF6C91E2C460B3C00D95621 /* SignInViewController.swift in Sources */,
 				1CF6C9352C47677800D95621 /* ProductCell.swift in Sources */,
+				1CF6C9592C48A89600D95621 /* ProductDetailViewController.swift in Sources */,
 				1CF6C9212C46139D00D95621 /* TeacherCell.swift in Sources */,
 				1CF6C8E62C44C05000D95621 /* SceneDelegate.swift in Sources */,
+				1CF6C95F2C48AAB100D95621 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

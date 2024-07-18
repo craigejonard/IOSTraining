@@ -75,6 +75,7 @@ extension TeacherListViewController: UITableViewDelegate, UITableViewDataSource 
         if indexPath.section == 1 {
             // Only handle selection for teacher cells
             let teacherDetailVC = TeacherDetailsViewController()
+            teacherDetailVC.delegate = self
             teacherDetailVC.teacher = teachers[indexPath.row]
             navigationController?.pushViewController(teacherDetailVC, animated: true)
         }
@@ -126,8 +127,17 @@ extension TeacherListViewController: UITableViewDelegate, UITableViewDataSource 
         
         present(alertController, animated: true, completion: nil)
     }
+    
+}
 
-
+extension TeacherListViewController: TeacherDetailsViewControllerDelegate {
+    func didReportTeacher() {
+        print("Teacher reported")
+    }
+    
+    func didAddToFavorite() {
+        print("Teacher favorited 2")
+    }
     
     
 }

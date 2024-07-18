@@ -22,7 +22,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func LoginOutletBtn(_ sender: Any) {
-        let VC = TeacherListViewController()
+        let VC = CustomTabBarController()
 //        VC.modalPresentationStyle = .fullScreen
         self.navigationController?.pushViewController(VC, animated: true)
 //        self.present(VC, animated: true)

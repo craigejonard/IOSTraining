@@ -50,12 +50,31 @@ extension ProductsViewController : UICollectionViewDelegate, UICollectionViewDat
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let item_width = (collectionView.bounds.width-20)/3
-        return CGSize(width: item_width, height: item_width)
+//        let item_width = (collectionView.bounds.width-20)/3
+//        return CGSize(width: item_width, height: item_width)
+        
+        let numberOfColumns: Int
+        let deviceWidth = view.frame.width
+        
+        if deviceWidth > 600 {
+            numberOfColumns = 4
+        } else {
+            numberOfColumns = 2
+        }
+        
+        let spacing: CGFloat = 10
+        let totalSpacing = (CGFloat(numberOfColumns - 1) * spacing)
+        let itemWidth = (deviceWidth - totalSpacing) / CGFloat(numberOfColumns)
+        return CGSize(width: itemWidth, height: itemWidth)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let productDetail = ProductDetailViewController()
+        
     }
     
     
